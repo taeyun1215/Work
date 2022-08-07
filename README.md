@@ -6,3 +6,8 @@
   - 쿼리문 수정 완료되면 실제값을 가져오기 위한 update 쿼리문 작성
     - h_prd_test_rq_mstr테이블에 매칭 시켜주면 됨.
     - 매칭 되는 컬럼은 3가지(PRD_UNQ_CD, ver, TEST_RSLT_NO)
+
+### 22.08.07
+- 티움넷 실제값 매칭 API 개발
+  - 쿼리문 수정 완료
+  - 쿼리문 update 작성중
