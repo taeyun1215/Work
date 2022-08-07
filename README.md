@@ -13,6 +13,7 @@
 (진행)
   - dbeaver로 update 쿼리문 확인해야함. (실제값이 업데이트 되는지)
   - 나머지 테이블(h_psvn_test_psve_pres_mstr, psvn_tium_prd_key)도 확인해야함.
+
 (완료)
   - 쿼리문 수정 완료.
   - 쿼리문 update 작성 완료.
