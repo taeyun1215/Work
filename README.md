@@ -87,3 +87,21 @@
 - 실제값 매칭이 불가하여 다른 데이터를 가져와야하므로 아모레퍼시픽측에 이메일 보냄.
 
 ---
+
+### 22.08.16
+
+#### (진행) @GCP 서버에 배포하기.
+- pm2로 배포하기
+  - package.json 파일에서 오류가 나서 고치는중.
+
+#### (진행) @DW 데이터를 확인하기 위한 Python Code Checking
+- 코드상 DB url 바꾸기.
+- 실행이 된 후 DB에서 확인하기.
+
+#### (완료) @DW 데이터를 확인하기 위한 DB Setting
+- DB query를 이용하여 DB Setting 완료.
+  - [x] table
+  - [x] function
+  - [x] sequences
+
+---
