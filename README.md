@@ -485,7 +485,8 @@
 
 #### (진행) @티움넷 프로세스
 - history/list 두번 클릭해야 업데이트가 되는 오류. 원인 파익 완료.
-  - 원인 : 두번째 query(sql, sql_params, (err, result) 실행 즉시, 첫번째 update가 완료 됨. 따라서 두번째 쿼리 실행 전에 update를 진행해 줘야함.
+  - 원인 : 두번째 query(sql, sql_params, (err, result) 실행 즉시 첫번째 update가 완료 됨. 
+  - 해결방법 : 따라서 두번째 쿼리 실행 전에 update를 완료해야함.
 
 #### (대기) @GCP 서버에 배포하기
 - pm2로 배포하기.
