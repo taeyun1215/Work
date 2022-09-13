@@ -442,7 +442,7 @@
   
 ---
 
-### 22.09.02
+### 22.09.05
 
 #### (진행) @티움넷 프로세스
 - history/list 두번 클릭해야 업데이트가 되는 오류.
@@ -463,7 +463,7 @@
 
 #### (대기) @stg서버에 있는 데이터 로컬로 옮기기
   
-### 22.09.02
+### 22.09.06
 
 #### (진행) @DW 데이터를 확인하기 위한 Python Code Checking
 - 코드상 DB url 바꾸기.
@@ -477,5 +477,20 @@
 - h_psvn_test_sn_rslt_mstr, h_psvn_test_psve_pres_mstr 테이블에 real_rslt_no(실제 방부코드) 컬럼 추가하기
 - 티움넷 불러오기, 처방 입력하기 테스트 진행하기.
 
+### 22.09.13
 
+#### (진행) @DW 데이터를 확인하기 위한 Python Code Checking
+- dataSimulation으로 데이터 입력하고 History 확인하기.
+- History/list에서 티움넷, 처방 불러오기가 제대로 수정되는지 확인하기.
+
+#### (완료) @DW 데이터를 확인하기 위한 Python Code Checking
+- 코드상 DB url 바꾸기.
+- 실행이 된 후 DB(기존 : public, 변경 : pps)에서 확인하기.
+
+#### (완료) @GCP 서버에 배포하기
+- pm2로 배포하기.
+
+#### (대기) @stg, prd server DB에 컬럼 추가
+- h_psvn_test_sn_rslt_mstr, h_psvn_test_psve_pres_mstr 테이블에 real_rslt_no(실제 방부코드) 컬럼 추가하기
+- 티움넷 불러오기, 처방 입력하기 테스트 진행하기.
 
