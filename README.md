@@ -462,6 +462,8 @@
 - 실행이 된 후 DB에서 확인하기.
 
 #### (대기) @stg서버에 있는 데이터 로컬로 옮기기
+
+---
   
 ### 22.09.06
 
@@ -476,6 +478,8 @@
 #### (대기) @stg, prd server DB에 컬럼 추가
 - h_psvn_test_sn_rslt_mstr, h_psvn_test_psve_pres_mstr 테이블에 real_rslt_no(실제 방부코드) 컬럼 추가하기
 - 티움넷 불러오기, 처방 입력하기 테스트 진행하기.
+
+---
 
 ### 22.09.13
 
@@ -493,4 +497,6 @@
 #### (대기) @stg, prd server DB에 컬럼 추가
 - h_psvn_test_sn_rslt_mstr, h_psvn_test_psve_pres_mstr 테이블에 real_rslt_no(실제 방부코드) 컬럼 추가하기
 - 티움넷 불러오기, 처방 입력하기 테스트 진행하기.
+
+---
 
