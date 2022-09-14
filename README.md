@@ -500,3 +500,43 @@
 
 ---
 
+### 22.09.14
+
+#### (진행) @DW 파일 확장자명 이슈
+- 확장자명이 파일마다 다르기에 메일을 작성해야함.
+
+#### (진행) @stg서버 테스트
+- 티움넷 불러오기 확인중.
+- 처방 입력하기 확인 완료.
+
+#### (완료) @DW 데이터를 확인하기 위한 Python Code Checking
+- dataSimulation으로 데이터 입력하고 History 확인하기.
+- History/list에서 티움넷, 처방 불러오기가 제대로 수정되는지 확인하기.
+
+#### (완료) @stg, prd server DB에 컬럼 추가
+- h_psvn_test_sn_rslt_mstr, h_psvn_test_psve_pres_mstr 테이블에 real_rslt_no(실제 방부코드) 컬럼 추가하기
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
