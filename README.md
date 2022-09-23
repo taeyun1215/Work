@@ -660,4 +660,20 @@
 - parquest파일에 과거 데이터가 쌓이는지 확인 완료.
 - 과거 데이터 delete후 insert하기.
 
+---
 
+### 22.09.23
+
+#### (진행) @DW 데이터(A7) 확인을 위한 parquet 파일 확인
+- DB에 A7 데이터 default를 0으로 설정하기.
+
+#### (완료) 방부결과 오류: 방부처방 데이터 0 표기되는 이슈 (이슈리스트 1번)
+- 해결 완료.
+  ```python
+  values = values.split('\'),')
+  ```
+- DB에서 확인 완료.
+
+#### (대기) local, stg, prd
+- parquest파일에 과거 데이터가 쌓이는지 확인 완료.
+- 과거 데이터 delete후 insert하기.
