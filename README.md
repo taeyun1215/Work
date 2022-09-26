@@ -686,8 +686,12 @@
 - insert_parquest 파일 배포 완료.
 - 내일(9/27) stg서버 db 확인하기.
 
-#### (완료) @DW 데이터(A7) 확인을 위한 parquet 파일 확인
-- DB에 A7 데이터 default를 0으로 설정하기.
+#### (완료) @DW 데이터(A7) 이슈
+- dataSimulating/psvn_result에서만 A7 데이터를 사용하고 있음.
+- 해당 API에 밑에 코드를 넣어서 수정을 해줬음.
+  ```javascript
+  result.rows[0].json_build_object.MICR_LOG_DEC_A7 = 0
+  ```
 
 #### (완료) @DW 데이터(A7) 이슈, parquest파일 이슈 stg서버 배포 완료
 
