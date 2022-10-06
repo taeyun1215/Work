@@ -737,53 +737,60 @@
 ### 22.09.30
 
 #### (진행) @Jenkin, GitLab 권한 완료.
-- 방부예측 GitLab 권한 받기 (심유석 M)
+- 방부예측 GitLab 권한 받기. (심유석 M)
 
 #### (진행) @대시보드 일치율 이슈
-- 인수인계 완료(분석팀)
-- DataMonitor에 dashboard API 수정중
+- 인수인계 완료. (분석팀)
+- DataMonitor에 dashboard API 수정중.
 
 #### (진행) @A7 데이터 이슈
-- Soucretree에 push하기
+- Soucretree에 push하기.
 
 #### (진행) @전체 DW 테이블 확인하기
-- GitLab 권한 받은 후 insert_parquest 재배포
-- 재배포 후 DW테이블 체크하기
+- GitLab 권한 받은 후 insert_parquest 재배포.
+- 재배포 후 DW테이블 체크하기.
 
 #### (대기) @amore 권한 받기
-- 로컬 피씨 백업 완료
-- 윈도우 업데이트 완료
-- amore 기술지원센터 전화후 로컬피씨 권한 받기
+- 로컬 피씨 백업 완료.
+- 윈도우 업데이트 완료.
+- amore 기술지원센터 전화후 로컬피씨 권한 받기.
 
 ---
 
-22.10.04
+### 22.10.04
 
 #### (진행) @대시보드 일치율 이슈
-- 인수인계 완료(분석팀)
-- DataMonitor에 dashboard API 수정중
+- DataMonitor에 dashboard API 수정중.
 
 #### (완료) @전체 DW 테이블 확인하기
 
 #### (완료) @A7 데이터 이슈
-- Soucretree에 push하기
+- Soucretree에 push하기.
 
 #### (완료) @Jenkin, GitLab 권한 완료.
-- 방부예측 GitLab 권한 받기 (심유석 M)
+- 방부예측 GitLab 권한 받기. (심유석 M)
 
 #### (완료) @amore 권한 받기
-- 로컬 피씨 백업 완료
-- 윈도우 업데이트 완료
-- amore 기술지원센터 전화후 로컬피씨 권한 받기
+- 로컬 피씨 백업 완료.
+- 윈도우 업데이트 완료.
+- amore 기술지원센터 전화후 로컬피씨 권한 받기.
 
 ---
 
-22.10.05
+### 22.10.05
 
 #### (진행) @대시보드 일치율 이슈
-- 인수인계 완료(분석팀)
 - DataMonitor에 dashboard API 수정중
 
 #### (진행) @인턴 평가 발표
 - ppt 만드는중
 
+---
+
+### 22.10.05
+
+#### (진행) @대시보드 일치율 이슈
+- DataMonitor에 dashboard API 수정중
+
+#### (완료) @인턴 평가 발표
+- ppt 완료
