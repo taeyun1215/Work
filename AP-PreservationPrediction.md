@@ -910,6 +910,19 @@
 - Crontab 시간 설정증.
 - Crontab 자동 시작 설정중.
 
+---
+
+### 22.10.27
+
+#### (진행) @방부 담당자 사번 -> 의뢰자 사번 변경 요청 (추가 이슈)
+- 한번 더 메일 보내기.
+
+#### (완료) @페이지 권한 이슈 (추가 이슈)
+
+#### (완료) @Linux Crontab 
+- Crontab 시간 설정 완료.
+- Crontab 자동 시작 설정 완료.
+https://taeyun1215.notion.site/Linux-Server-restart-a820f9cf43bd47e788e9d10ab2dff649
 
 
 
