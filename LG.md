@@ -173,6 +173,13 @@
 - 원인 파악 완료.
 - WebConfig에서 maxReceivedMessageSize를 늘려주었음.
 
+---
+
+### 22.11.28
+
+#### (완료) @CNS-webinar 이메일 전송
+- 배포 완료. (11/30)
+
 
 
 
