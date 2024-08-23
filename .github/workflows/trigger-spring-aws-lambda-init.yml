@@ -13,5 +13,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          repository: taeyun1215/spring-aws-lambda-init
+          repository: taeyun1215/spring-lambda-mvp
           event-type: deploy-trigger
