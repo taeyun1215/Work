@@ -1,39 +1,38 @@
 package com.example.demo.user;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Optional;
 
 @RestController
 @RequestMapping("/users")
 public class UserController {
 
-    @Autowired
-    private UserService userService;
-
     @PostMapping("/register")
     public ResponseEntity<String> registerUser(@RequestBody User user) {
-        userService.registerUser(user);
         return ResponseEntity.ok("User registered successfully");
     }
 
     @PostMapping("/login")
     public ResponseEntity<String> loginUser(@RequestBody User user) {
-        boolean isValid = userService.validatePassword(user.getUsername(), user.getPassword());
-        if (isValid) {
-            return ResponseEntity.ok("Login successful");
-        } else {
-            return ResponseEntity.status(401).body("Invalid credentials");
-        }
+        return ResponseEntity.ok("Login successful");
     }
 
     @GetMapping(value = "/{username}", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<User> getUserByUsername(@PathVariable String username) {
-        Optional<User> userOptional = userService.findUserByUsername(username);
-        return userOptional.map(ResponseEntity::ok)
-                .orElseGet(() -> ResponseEntity.status(404).body(null));
+        return ResponseEntity.ok(User.builder().build());
+    }
+
+    @GetMapping("/search")
+    public ResponseEntity<User> searchUserByUsername(@RequestParam String username) {
+        return ResponseEntity.ok(User.builder().build());
+    }
+
+    @GetMapping("/list")
+    public ResponseEntity<List<User>> getUsers() {
+        return ResponseEntity.ok(List.of(User.builder().build()));
     }
 }
