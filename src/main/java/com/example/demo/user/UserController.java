@@ -26,12 +26,12 @@ public class UserController {
         return ResponseEntity.ok(User.builder().build());
     }
 
-    @GetMapping("/search")
+    @GetMapping(value = "/search", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<User> searchUserByUsername(@RequestParam String username) {
         return ResponseEntity.ok(User.builder().build());
     }
 
-    @GetMapping("/list")
+    @GetMapping(value = "/list", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<User>> getUsers() {
         return ResponseEntity.ok(List.of(User.builder().build()));
     }
